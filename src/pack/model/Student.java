@@ -8,7 +8,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Student {
-	@Id
+	@Id 
 	@Column
 	@GeneratedValue(strategy=GenerationType.AUTO)
 private int studentid;

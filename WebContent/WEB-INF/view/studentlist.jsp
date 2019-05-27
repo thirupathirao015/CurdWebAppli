@@ -28,8 +28,8 @@
          <td>${student.firstname}</td>
          <td>${student.lastname}</td>
          <td>${student.yearlevel}</td>
-         <td><a href="Editform">Edit</a></td>
-          <td><a href="deleteform">delete</a></td>
+         <td><a href="Editform?studentid=${student.studentid}">Edit</a></td> 
+        <td><a href="delete?studentid=${student.studentid}">Delete</a></td>                 
      </tr>
    </c:forEach>
 </table>

@@ -6,9 +6,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body> 
  <h1>STUDENT INFORMATION</h1>
     <a href="listform">Student list</a><br>
     <a href="addform">Student login form</a><br>
 </body>
 </html>
+
+<!-- http://localhost:8082/CurdWebAppli/home.jsp -->

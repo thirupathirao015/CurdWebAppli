@@ -17,15 +17,17 @@
 	<form:input path="firstname" />
 	<br />
 	<form:label path="lastname">Last Name:</form:label>
-	<form:textarea path="lastname" />
+	<form:input path="lastname" />
 	<br />
 	<form:label path="yearlevel">YearLevel:</form:label>
-	<form:textarea path="yearlevel" />
+	<form:input path="yearlevel" />
 	<br />
 	<input type="submit" value="Save " />
-</form:form>
+</form:form> 
 </body>
 </html>
+
+<!-- http://localhost:8082/CurdWebAppli/addform -->
 <%-- <form:form modelAttribute="student" action="savestudent" method="post">
 <table>
      <tr>

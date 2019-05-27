@@ -10,13 +10,13 @@
 </head>
 <body>
   <h3>Student Edit form</h3>
-   <form:form  action="Editsave" modelAttribute="student"  method="POST">
+    <form:form  action="Editsave" modelAttribute="student"  method="GET">
    
-    <c:forEach items="${student}" var="student">
+    <%-- <c:forEach items="${student}" var="student"> --%>
     
      <form:label path="studentid">Student Id:</form:label>
 	<form:input path="studentid" value="${student.studentid}"/>
-	<br />
+	 <br />
 	<form:label path="firstname">First Name:</form:label>
 	<form:input path="firstname" value="${student.firstname}"/>
 	<br />
@@ -24,10 +24,10 @@
 	<form:input path="lastname" value="${student.lastname}"/>
 	<br />
 	<form:label path="yearlevel">YearLevel:</form:label>
-	<form:input path="yearlevel" value="${student.yearlevel}" />
-	<br />
+	<form:input path="yearlevel" value="${student.yearlevel}" />	
+	<br /> 
 	<input type="submit" value="Edit " />
-	</c:forEach>
-</form:form>
+	<%-- </c:forEach> --%>
+</form:form> 
 </body>
 </html>
